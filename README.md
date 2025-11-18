@@ -19,7 +19,7 @@ File Descriptions
     import numpy as np
     import os
     import sys
-
+    ```python
     laser_parameters = np.load('inconel_data/input_test_data.npy')
     n = 10  # batch size
     idx = np.random.choice(np.arange(0, len(laser_parameters), 1), size=n, replace=False)  # random selection
@@ -31,6 +31,7 @@ File Descriptions
         os.makedirs(directory)
 
     np.savetxt(file_path_par, parameters_sample)  # save the parameters in the sampled_data folder
+    ```
 
 2. Emissivity Curves Script:
    - This script simulates the emissivity curves in the same way that the parameters are simulated.
