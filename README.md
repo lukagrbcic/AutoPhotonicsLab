@@ -36,8 +36,6 @@ This repository contains two Python scripts that simulate an experiment by rando
 2. Emissivity Curves Script:
    - This script simulates the emissivity curves in the same way that the parameters are simulated.
 
-   Note: The code is similar to the Sample Parameters Script and will also include the logic to extract or generate required parameters.
-
 ## Running the Scripts
 
 
