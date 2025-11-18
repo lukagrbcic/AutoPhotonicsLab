@@ -15,11 +15,11 @@ File Descriptions
 
 1. Sample Parameters Script:
    - This script loads laser parameters from a .npy file, randomly selects a batch of parameters, and saves them to a text file. The outputs are Power, Speed, Spacing.
-
+    ```python
     import numpy as np
     import os
     import sys
-    ```python
+
     laser_parameters = np.load('inconel_data/input_test_data.npy')
     n = 10  # batch size
     idx = np.random.choice(np.arange(0, len(laser_parameters), 1), size=n, replace=False)  # random selection
