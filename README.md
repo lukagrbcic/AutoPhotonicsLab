@@ -1,5 +1,5 @@
 # AutoPhotonicsLab
-FLAR - Code for the automated design of photonic surfaces in a self-driving lab
+TODO: FLARE - Code for the automated design of photonic surfaces in a self-driving lab
 
 # Random Experiment Simulator
 
