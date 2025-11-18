@@ -3,15 +3,15 @@ TODO: FLARE - Code for the automated design of photonic surfaces in a self-drivi
 
 # Random Experiment Simulator
 
-Overview
+## Overview
 
 This repository contains two Python scripts that simulate an experiment by randomly selecting laser parameters and generating corresponding emissivity curves. The chosen parameters are then saved to a file for further analysis.
 
-Prerequisites
+## Prerequisites
 
 - NumPy
 
-File Descriptions
+## File Descriptions
 
 1. Sample Parameters Script:
    - This script loads laser parameters from a .npy file, randomly selects a batch of parameters, and saves them to a text file. The outputs are Power, Speed, Spacing.
@@ -38,7 +38,7 @@ File Descriptions
 
    Note: The code is similar to the Sample Parameters Script and will also include the logic to extract or generate required parameters.
 
-Running the Scripts
+## Running the Scripts
 
 
 1. Make sure you have the inconel_data folder and files in the appropriate directory.
@@ -51,7 +51,7 @@ Running the Scripts
 
    python rng_experiment_parameters.py
 
-Output
+## Output
 
 The selected parameters will be saved in the sampled_data directory as sampled_parameters.txt. You can use this file for further analysis or exploration of the experimental setup.
 
