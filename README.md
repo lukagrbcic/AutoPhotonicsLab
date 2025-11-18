@@ -45,11 +45,11 @@ Running the Scripts
 
 2. Run the Sample Parameters Script:
 
-   python sample_parameters.py
+   python rng_experiment_emissivity.py
 
 3. Run the Emissivity Curves Script:
 
-   python emissivity_curves.py
+   python rng_experiment_parameters.py
 
 Output
 
